@@ -104,7 +104,8 @@
         android:layout_width="350dp"
         android:layout_height="77dp"
         android:layout_marginTop="20dp"
-        android:background="#f8f8f8f8"
+        android:background="#E7E7E7E7"
+        app:layout_constraintCircleRadius="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
@@ -162,7 +163,7 @@
         android:layout_height="77dp"
         android:layout_marginStart="30dp"
         android:layout_marginTop="8dp"
-        android:background="#F8F8F8F8"
+        android:background="#E7E7E7E7"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view2" />
 
@@ -205,8 +206,9 @@
         android:id="@+id/view4"
         android:layout_width="170dp"
         android:layout_height="77dp"
-        android:background="#F8F8F8F8"
+        android:background="#E7E7E7E7"
         app:layout_constraintBottom_toBottomOf="@+id/view3"
+        app:layout_constraintCircleRadius="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.243"
         app:layout_constraintStart_toEndOf="@+id/view3" />
@@ -262,7 +264,9 @@
         android:layout_width="350dp"
         android:layout_height="77dp"
         android:layout_marginTop="20dp"
-        android:background="#F8F8F8F8"
+        android:background="#E7E7E7E7"
+        app:circularflow_defaultRadius="10dp"
+        app:circularflow_radiusInDP="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView16" />
@@ -305,7 +309,7 @@
         android:layout_width="350dp"
         android:layout_height="77dp"
         android:layout_marginTop="8dp"
-        android:background="#F8F8F8F8"
+        android:background="#E7E7E7E7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view5" />
@@ -348,8 +352,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="30dp"
+        android:backgroundTint="#FFC107"
         android:text="Save"
         android:textColorLink="#FFC107"
+        android:textStyle="bold"
+        app:circularflow_defaultRadius="10dp"
+        app:cornerRadius="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/button6" />
 
@@ -358,7 +366,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
+        android:backgroundTint="#E7E7E7E7"
         android:text="Clear"
+        android:textColor="#1A1919"
+        android:textStyle="bold"
+        app:cornerRadius="15dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/button6" />
 
@@ -367,8 +379,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:backgroundTint="#000000"
         android:text="Edit"
-        android:textColor="#070707"
+        android:textColor="#F4F4F4"
+        android:textStyle="bold"
+        app:cornerRadius="15dp"
         app:layout_constraintEnd_toStartOf="@+id/button3"
         app:layout_constraintStart_toEndOf="@+id/button5"
         app:layout_constraintTop_toBottomOf="@+id/view6" />
