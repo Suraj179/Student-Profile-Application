@@ -101,10 +101,11 @@
 
     <View
         android:id="@+id/view2"
-        android:layout_width="wrap_content"
-        android:layout_height="100dp"
-        android:layout_marginTop="32dp"
+        android:layout_width="350dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="20dp"
         android:background="#f8f8f8f8"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
@@ -127,6 +128,7 @@
         android:layout_marginStart="15dp"
         android:layout_marginTop="15dp"
         android:text="PROGRAMME"
+        android:textSize="11sp"
         app:layout_constraintStart_toEndOf="@+id/textView9"
         app:layout_constraintTop_toTopOf="@+id/view2" />
 
@@ -144,7 +146,7 @@
         android:id="@+id/textView9"
         android:layout_width="38dp"
         android:layout_height="38dp"
-        android:layout_marginStart="40dp"
+        android:layout_marginStart="20dp"
         android:background="#FFC107"
         android:gravity="center"
         android:text="🎓"
@@ -156,11 +158,11 @@
 
     <View
         android:id="@+id/view3"
-        android:layout_width="wrap_content"
+        android:layout_width="170dp"
         android:layout_height="77dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="8dp"
         android:background="#F8F8F8F8"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view2" />
 
@@ -168,7 +170,7 @@
         android:id="@+id/textView10"
         android:layout_width="38dp"
         android:layout_height="38dp"
-        android:layout_marginStart="40dp"
+        android:layout_marginStart="20dp"
         android:background="#FFC107"
         android:gravity="center_horizontal|center_vertical"
         android:text="💻"
@@ -185,6 +187,7 @@
         android:layout_marginStart="15dp"
         android:layout_marginTop="15dp"
         android:text="DEPARTMENT"
+        android:textSize="11sp"
         app:layout_constraintStart_toEndOf="@+id/textView10"
         app:layout_constraintTop_toTopOf="@+id/view3" />
 
@@ -197,5 +200,177 @@
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/textView11"
         app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="170dp"
+        android:layout_height="77dp"
+        android:background="#F8F8F8F8"
+        app:layout_constraintBottom_toBottomOf="@+id/view3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.243"
+        app:layout_constraintStart_toEndOf="@+id/view3" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="20dp"
+        android:width="38dp"
+        android:background="#FFC107"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="📚"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view4"
+        app:layout_constraintStart_toStartOf="@+id/view4"
+        app:layout_constraintTop_toTopOf="@+id/view4" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Semester VI"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView15"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:text=" SEMESTER"
+        android:textSize="11sp"
+        app:layout_constraintStart_toEndOf="@+id/textView13"
+        app:layout_constraintTop_toTopOf="@+id/view4" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="| Contact Information"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view3" />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="350dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="20dp"
+        android:background="#F8F8F8F8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="20dp"
+        android:background="#FFC107"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="✉️"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view5"
+        app:layout_constraintStart_toStartOf="@+id/view5"
+        app:layout_constraintTop_toTopOf="@+id/view5" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:text="EMAIL ADDRESS"
+        android:textSize="11sp"
+        app:layout_constraintStart_toEndOf="@+id/textView18"
+        app:layout_constraintTop_toTopOf="@+id/view5" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="tashi.dorji@student.edu.bt"
+        app:layout_constraintStart_toStartOf="@+id/textView19"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="350dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="8dp"
+        android:background="#F8F8F8F8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view5" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#FFC107"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="📱"
+        app:layout_constraintStart_toStartOf="@+id/view6"
+        app:layout_constraintTop_toTopOf="@+id/view6" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:text="PHONE NUMBER"
+        android:textSize="11sp"
+        app:layout_constraintStart_toEndOf="@+id/textView21"
+        app:layout_constraintTop_toTopOf="@+id/view6" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="975+ 77123456"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView22"
+        app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:text="Save"
+        android:textColorLink="#FFC107"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button6" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:text="Clear"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button6" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Edit"
+        android:textColor="#070707"
+        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintStart_toEndOf="@+id/button5"
+        app:layout_constraintTop_toBottomOf="@+id/view6" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
