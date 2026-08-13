@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">Student Porfile Application</string>
+    <string name="student_profile">Student Profile</string>
+    <string name="it">IT</string>
+    <string name="information_technology">Information Technology</string>
+    <string name="suraj_ghalley">Suraj Ghalley</string>
+    <string name="student_id_02240179">Student ID: 02240179</string>
+    <string name="academic_information">| Academic Information</string>
+    <string name="programme">PROGRAMME</string>
+    <string name="bachelor_of_engineering_in_information_technology">Bachelor of Engineering in Information Technology</string>
+    <string name="education">🎓</string>
+    <string name="laptop">💻</string>
+    <string name="department">DEPARTMENT</string>
+    <string name="ctd">CTD</string>
+    <string name="Books">📚</string>
+    <string name="semester_vi">Semester VI</string>
+    <string name="semester">SEMESTER</string>
+    <string name="contact_information">| Contact Information</string>
+    <string name="mail">✉️</string>
+    <string name="email_address">EMAIL ADDRESS</string>
+    <string name="student_edu_bt">02240179.cst@rub.edu.bt</string>
+    <string name="Phone">📱</string>
+    <string name="phone_number">PHONE NUMBER</string>
+    <string name="_975_77615340">975+ 77615340</string>
+    <string name="save">Save</string>
+    <string name="clear">Clear</string>
+    <string name="edit">Edit</string>
+    <string name="profile_picture_of_suraj_ghalley">Profile picture of Suraj Ghalley</string>
+    <string name="student_profile_application_computing_technologies_department">Student Profile Application • Computing Technologies Department</string>
 </resources>
